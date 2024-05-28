@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./portfolio.css">
+    <title>personal portfolio website - Easy tutorials</title>
+</head>   
+<body> 
+<!-- ------------------header------------------ -->
+<div id= "header">
+  <div class="container">
+    <nav>
+      <h1 class="logo "><span>A</span>BUBAKRY</h1>
+      <ul id="sidemenu">
+        <li><a href="#header">home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <img src="./images/times.png" class="click" onclick="closemenu()">
+      </ul>
+      <img src="./images/img1.png" class="click" onclick="openmenu()">
+    </nav>
+    <div class="header-text">
+      <p>UI/UX Designer</p>
+      <h1>Hi,I'm <span>ABUBAKRY</span> <br> Bidmos from Nigeria</h1>
+    </div>
+  </div>
+</div>
+<!-- -------------about------------------------ -->
+ <div id="about">
+  <div class="container">
+    <div class="row">
+       <div class="about-col-1">
+        <img src="./images/male image  01.jpg" class="me">
+       </div>
+       <div class="about-col-2">
+        <h1 class="sub-tittle">ABOUT ME </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laborum ad labore beatae delectus quae nam facilis aut, earum cum ipsam, quibusdam nisi vi
+          tae. Sint quasi illo unde ab totam mollitia commodi, sunt excepturi possimus saepe nulla molestias nostrum quam pariatur eius eos accusamus harum natus beatae fugiat error. Animi.</p>
+         
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+            <p class="tab-links" onclick="opentab('experience')">experience</p>
+            <p class="tab-links"onclick="opentab('education')">education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+
+              <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+
+              <li><span>App Development</span><br>Designing Web/App interfaces</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021-currrent</span><br>UI/UX Design Training at ET Institute</li>
+
+              <li><span>2019-2021</span><br>team lead at starapp llc</li>
+
+              <li><span>2017-2019</span><br>UI/UX Design executive at coin digital ltd</li>
+
+              <li><span>2016-2017</span><br>intership at start ecommerce</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>UI/UX Design training at et institution</li>
+
+              <li><span>2016</span><br>mba from mit bangalore.</li>
+
+              <li><span>2014</span><br>bba from isn bangalore.</li>
+            </ul>
+          </div>
+       </div>
+    </div>
+  </div>
+ </div>
+<!-- ---------services------------------------ --->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-tittle">My Services</h1>
+    <div class="services-list">
+      <div>
+        
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum sint neque
+        magni quibusdam, odit ipsa dolor pariatur, ipsam voluptates vero ratione totam voluptatum et consequuntur quod itaque iste saepe.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <h2>UI/UX Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum sint neque
+        magni quibusdam, odit ipsa dolor pariatur, ipsam voluptates vero ratione totam voluptatum et consequuntur quod itaque iste saepe.</p>
+        <a href="#">Learn more</a>
+      </div>
+
+      <div>
+        <h2>app  Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum sint neque
+        magni quibusdam, odit ipsa dolor pariatur, ipsam voluptates vero ratione totam voluptatum et consequuntur quod itaque iste saepe.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -----------------portfolio---------------- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work </h1>
+    <div class="work-list">
+
+      
+      <div class="work">
+        <img src="./images/phone3.jpg" >
+        <div class="layer">
+          <h3>social media app</h3>
+          <p>The app connects you to the talented people around the world
+            downlaod it from play store.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transfer-in" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 18v3h16v-14l-8 -4l-8 4v3" />
+              <path d="M4 14h9" />
+              <path d="M10 11l3 3l-3 3" />
+            </svg>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./images/phone4.jpg" >
+        <div class="layer">
+          <h3>music app</h3>
+          <p>The app connects you to the talented people around the world
+            downlaod it from play store.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transfer-in" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 18v3h16v-14l-8 -4l-8 4v3" />
+              <path d="M4 14h9" />
+              <path d="M10 11l3 3l-3 3" />
+            </svg>
+        </div>
+      </div>
+
+      <div class="work">
+        <img src="./images/phone5.webp" >
+        <div class="layer">
+          <h3>online shopping  app</h3>
+          <p>The app connects you to the talented people around the world
+            downlaod it from play store.</p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transfer-in" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M4 18v3h16v-14l-8 -4l-8 4v3" />
+              <path d="M4 14h9" />
+              <path d="M10 11l3 3l-3 3" />
+            </svg>
+        </div>
+      </div>
+    </div>
+      <a href="#" class="btn">see more</a>
+  </div>
+</div>
+<!-- ------------------contact---------------- -->
+<div id="contact">  
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title1">CONTACT ME</h1>
+        <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-telegram" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+        </svg>contact@example.com</p>
+        <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-filled" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" stroke-width="0" fill="currentColor" />
+        </svg>0123456789</p>
+        <div class="social-icons">
+           <a href="https://facebook.com/"><img src="./images/icons8-facebook-32.png" class="img1"></a>
+           <a href="https://twitter.com/"><img src="./images/icons8-twitter-squared-32.png" class="img2"></a>
+           <a href="https://instagram.com/"><img src="./images/icons8-instagram-logo-48.png" class="img3"></a>
+           <a href="https://linkdin.com/"><img src="./images/icons8-linkedin-logo-48.png" class="img4"></a>
+        </div>
+        <a href="images/my cv.pdf" download class="btn btn2">Download Cv</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text"name="Name" placeholder="your name" required>
+          <input type="email" name="email" placeholder="your Email" required>
+          <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+          <button type="submit" class="btn btn2">submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>  &copy;copyright o ABUBAKRY made with by easy tutorials</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+    } 
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+      sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz6MOhuRm_yk3Z1iau_DL3dv8gCzArbcDEGTn7gfyGIWi1xHSmpZeqeyvec3kNGt2Qe/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+</body>
+</html> 
